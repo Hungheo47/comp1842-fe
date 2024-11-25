@@ -8,7 +8,7 @@ const route = useRoute()
 </script>
 
 <template>
-<header class="mb-20" v-if="route.path !== '/login' && route.path !== '/register'">
+<header class="block" v-if="route.path !== '/login' && route.path !== '/register'">
   <Navbar />
 </header>
 

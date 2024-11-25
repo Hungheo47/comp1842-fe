@@ -152,7 +152,7 @@ onMounted(fetchUsers)
 </script>
 
 <template>
-  <div class="mx-20">
+  <div class="mx-20 mt-20">
     <a-table :columns="columns" :data-source="users" rowKey="_id" bordered>
       <template #bodyCell="{ column, record }">
         <template v-if="column.key === 'action'">
